@@ -39,6 +39,9 @@ body{
 .No-container button a{
     color: black;
 }
+.first{
+    display: grid;
+}
 .second, .third,.fourth{
     display: none;
 }
