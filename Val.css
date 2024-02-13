@@ -22,12 +22,20 @@ body{
 }
 .container .envelope-wrapper{
     background: #f5edd1;
+    position:relative;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.87);
 }
-.container .envelope-wrapper .envelope{
+.container .envelope-wrapper .envelope-container{
     position: relative;
     width: 300px;
     height: 230px;
+}
+.envelope-container . envelope{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
 }
 .envelope-wrapper .envelope::before{
     content: '';
@@ -90,8 +98,8 @@ position: absolute;
     height: 20px;
     width: 20px;
     background: rgb(255, 0, 43);
-    top: 55%;
-    left: 48%;
+    top: 50%;
+    left: 47%;
     
     transform: translate(-50%, -50%) rotate(45deg);
     transition: transform 0.2s ease-in-out;
