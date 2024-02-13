@@ -17,8 +17,8 @@
                 <div class="letter">
                     <h1>Will You Be My Val?</h1>
                     <div class="btn">
-                        <button class="Yes">Yes</button>
-                        <button class="No">No</button>
+                        <button class="Yes"><a href="Yes-page.html">Yes</a></button>
+                        <button class="No"><a href="No-page.html">No</a></button>
                     </div>
                 </div>
             </div>
@@ -34,61 +34,14 @@
     const envelope = document.querySelector('.envelope-wrapper');
     const Yes = document.querySelector('.Yes');
     const No = document.querySelector('.No');
-
+        
 
 
     envelope.addEventListener('click',()=>{
         envelope.classList.toggle('flap')
     })
-    
-    Yes.addEventListener('click', ()=>{
-        document.write(`
-<div style="background: #b6b6b6; color: rgb(221, 2, 2); text-align: center; width:100%; height:100%; margin:0; padding:0;">
-    <h1 style="font-size: 40px;">Yeppppiiii</h1>
-    <img src="catshakira-cat - 2024-02-13T020514.133.gif" alt="">
-    <div>
-        <h1>Click the button to chat me on Whatsapp</h1>
-        <br>
-            <button style="    padding: 12px 20px;
-        margin-top: 10px;
-        background: pink;
-        border: none;
-        color: white;
-        font-weight: 600;
-        box-shadow: 1px 1px 10px black;
-        border-radius: 30px;
-        cursor: pointer;"><a href="https://wa.me/7010331943? text= Hey%20
-        I will like to be your val😘😘😍" style="text-decoration: none; color:white;">Yes</a></button>
-        </div>
-    
-    </div>
-    `)
-    })
 
-    No.addEventListener('click', ()=>{
-        document.write(`
-<div style="background: #b6b6b6; color: rgb(221, 2, 2); text-align: center; width:100%; height:100%; margin:0; padding:0;">
-    <h1 style="font-size: 50px;">OUCH!!!</h1>
-    <h1 style="font-size: 200px;">😒</h1>
     
-   
-    <div>
-        <h1>Click the button to chat me on Whatsapp</h1>
-        <br>
-            <button style="    padding: 12px 20px;
-        margin-top: 10px;
-        background: pink;
-        border: none;
-        color: white;
-        font-weight: 600;
-        box-shadow: 1px 1px 10px black;
-        border-radius: 30px;
-        cursor: pointer;"><a href="https://wa.me/7010331943? text= Hey%20I'm sorry i can't be your val because" style="text-decoration: none; color:white;">No</a></button>
-        </div>
-    
-    </div>
-    `)
-    })
 
 </script>
 </html>
