@@ -3,45 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine</title>
-    <link rel="stylesheet" href="Val.css">
+    <link rel="stylesheet" href="HemmyEvo.css">
+    <title>HemmyEvo</title>
 </head>
 <body>
-    <div class="instruction">
-        <h1>Click The Heart To Show Message</h1>
-    </div>
-    <div class="container">
-        <div class="envelope-wrapper flap">
-            <div class="envelope-container">
-                <div class="envelope">
-                <div class="letter">
-                    <h1>Will You Be My Val?</h1>
-                    <div class="btn">
-                        <button class="Yes"><a href="Yes-page.html">Yes</a></button>
-                        <button class="No"><a href="No-page.html">No</a></button>
+
+
+    <!--Navbar Section-->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="hidden">HemmyEvo</h1>
+            </div>
+            <div class="bar">
+                <ul>
+                    <li><a href="#about">About Me </a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#Work">My Work</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!--First section with Profile-->
+    <section>
+        <div class="text">
+            <div class="container">
+                <h1>
+                    <span>H</span>
+                    <span>i</span>
+                    <span>,</span>
+                    <br>
+                    <span>I</span>
+                    <span class="left">'</span>
+                    <span class="left">m</span>
+                    <span class="name">E</span>
+                    <span class="left name">m</span>
+                    <span class="left name">m</span>
+                    <span class="left name">a</span>
+                    <span class="left name">n</span>
+                    <span class="left name">u</span>
+                    <span class="left name">e</span>
+                    <span class="left name">l</span>
+                    <span class="left name">,</span>
+                    <br>
+                    <span>W</span>
+                    <span class="left">e</span>
+                    <span class="left">b</span>
+                    <span>D</span>
+                    <span class="left">e</span>
+                    <span class="left">v</span>
+                    <span class="left">e</span>
+                    <span class="left">l</span>
+                    <span class="left">o</span>
+                    <span class="left">p</span>
+                    <span class="left">e</span>
+                    <span class="left">r</span>
+                    <span class="left">.</span>
+                </h1>
+            </div>
+            <p>Css / Javascript / React</p>
+            <a href="#contact">Contact me</a>
+            <img src="Profile.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!--About Section-->
+    <section class="hidden">
+        <div class="about" id="about">
+            <h1>About</h1>
+        </div>
+        <div class="about-text">
+            <p>
+              Passionate frontend developer skilled in creating responsible and intuitive web applications. Proficient in HTML ,CSS and JavaScript, with a keen eye for design and user experience. Experienced in translating design concepts into clean and efficient code. Dedicated to staying updated on industry trends and implementing best practices. Committed to delivering seamless and visually appealing digital experience that engage users. 
+            </p>
+        </div>
+    </section>
+
+
+    <!--Skills Section-->
+    <section>
+        <div class="skills" id="skill">
+            <h1 class="skill-h1">
+                Skills
+            </h1>
+            <div class="skill-h1 skills-wrap">
+
+
+
+            
+              <!--Html content-->
+            <div class="html">
+                <div class="tag-html">
+                    <p>Html</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-html">
                     </div>
                 </div>
             </div>
-            <div class="heart"></div>
+            <!--Css content-->
+            <div class="css">
+                <div class="tag-css">
+                    <p>Css</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-css">
+                    </div>
+                </div>
             </div>
-            
-        </div>
-    </div>
 
+            <!--Javascript content-->
+            <div class="javascript">
+                <div class="tag-javascript">
+                    <p>Javascript</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-javascript">
+                    </div>
+                </div>
+            </div>
+
+
+            <!--React content-->
+            <div class="react">
+                <div class="tag-react">
+                    <p>React</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-react">
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--Work Section-->
+    <section class="hidden">
+        <div class="work" id="Work">
+            <h1>Work</h1>
+        </div>
+        <div class="btn">
+            <button onclick=" but(); " class="active" id="active">Web Designing</button>
+            <button onclick=" but2(); " class="web-ani" id="web-ani">Web Animation</button>
+            <button onclick="but3();" class="React-des" id="React-des">React Designing</button>
+        </div>
+    </section>
+
+
+    <!--Image Section-->
+    <section>
+        <div class="display">
+            <div id="webdesign">
+                <img  class="imgleft" src="image/2.jpeg" alt="">
+                <img class="right" src="image/3.jpeg" alt="">
+                <img class="imgleft" src="image/5.jpeg" alt="">
+                <img class="right" src="image/2.jpeg" alt="">
+                <img class="imgleft" src="image/4.jpeg" alt="">
+            </div>
+
+            <div id="animation">
+                <img class="imgleft" src="image/2.jpeg" alt="">
+                <img  class="right"  src="image/3.jpeg" alt="">
+                <img class="imgleft" src="image/4.jpeg" alt="">
+            </div>
+
+            <div id="react">
+                <img class="imgleft" src="image/2.jpeg" alt="">
+                <img  class="right" src="image/3.jpeg" alt="">
+                <img class="imgleft" src="image/5.jpeg" alt="">
+                <img  class="right"  src="image/4.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact Section-->
+    <section>
+        <div class="contact-wrap">
+            <h1 class="" id="contact">Contact</h1>
+            <br>
+            <div class="form-wrap">
+                <form action="">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="atilolaemmanuel22@gmail.com" disabled>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer Section-->
+        <footer>
+            <hr>
+            <p>2023 Copyright. All Rights Reserved.</p>
+        </footer>
+
+    <script src="HemmyEvo.Js">
+    </script>
+ 
 </body>
 
-<script>
-    const envelope = document.querySelector('.envelope-wrapper');
-    const Yes = document.querySelector('.Yes');
-    const No = document.querySelector('.No');
-        
-
-
-    envelope.addEventListener('click',()=>{
-        envelope.classList.toggle('flap')
-    })
-
-    
-
-</script>
 </html>
